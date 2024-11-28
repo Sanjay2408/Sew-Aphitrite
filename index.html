@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="pure_athera">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sew Aphitrite - Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: var(--b2);
+        font-family: "JetBrains Mono", monospace;
+        overflow: hidden;
+      }
+      .logo-container {
+        width: 250px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .logo-container svg {
+        width: 100%;
+        height: 100%;
+      }
+      .text-container {
+        text-align: center;
+        margin-top: 1rem;
+      }
+      .brand-name {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--bc);
+        margin-bottom: 0.5rem;
+      }
+      .coming-soon {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--bc);
+      }
+      .non-rounded-card {
+        border-radius: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo-container">
+      <img src="Sew Aphitrite.png" alt="Sew aphitrite Logo" />
+    </div>
+
+    <div class="text-container">
+      <div class="brand-name">
+        <span class="btn btn-secondary font-extrabold text-xl non-rounded-card"
+          ><i>Sew Aphitrite</i></span
+        >
+      </div>
+      <p class="coming-soon">Coming Soon</p>
+    </div>
+  </body>
+</html>
